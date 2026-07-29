@@ -12,6 +12,7 @@ Community-governed BEP-20 token on Binance Smart Chain.
 - **Network:** Binance Smart Chain (BSC)
 - **Standard:** BEP-20
 - **Launch Date:** June 1, 2026
+- **Source Code:** [7SEVYN.sol](https://github.com/7sevyncrypto/7sevyn-token/blob/main/7SEVYN.sol)
 - **BSCScan:** https://bscscan.com/token/0x082c818a0bc956d6E7d1EBdBe89D3a24806B1484
 
 ## Tokenomics
@@ -44,11 +45,9 @@ On July 28, 2026 the 79% community allocation was placed in a UNCX vesting contr
 - **Transferable:** No
 - **Vest Page:** https://app.uncx.network/vesting-v2/flux/56-620
 
-The amount locked (60,861,000,000) is slightly higher than the original 79% allocation (60,830,000,000). The difference is reflection rewards the wallet accrued between launch and the vest date. A locker fee of approximately 60,921,922 tokens was paid to UNCX at creation, and the deployer wallet retains 47,910 tokens.
+The wallet's balance grew from 60,830,000,000 at launch to 60,921,969,832 by July 28, 2026 through reflection rewards. Of that balance, 60,861,000,000 was locked, approximately 60,921,922 was paid to UNCX as the locker fee, and 47,910 remains in the deployer wallet.
 
 Each released tranche is directed by community vote. The vote is conducted off-chain and results are executed on-chain by the project multisig.
-
-The deployer wallet holds 47,910 tokens, 0.000062% of supply.
 
 ### Vesting Execution Transactions
 
@@ -73,7 +72,7 @@ The vote itself is conducted off-chain. The token contract does not contain voti
 
 ## Security
 
-- **Audit:** Moogle Labs, April 2026. 14 findings identified, all 14 resolved.
+- **Audit:** Moogle Labs, April 2026. 14 findings identified, all 14 resolved. [Full report](https://github.com/7sevyncrypto/7sevyn-token/blob/main/Moogle_Labs_Audit_7SEVYN_v1.1_Final.pdf)
 - **Liquidity Lock:** UNCX Network, locked until June 1, 2027
 - **LP Lock Certificate:** https://app.uncx.network/lockers/manage/lockers-v2?service=edit&locker=0xc765bddb93b0d1c1a88282ba0fa6b2d00e3e0c83&pool=0xDfc1CC4b6603A1D80B34d2B389Db5B8DfE39D6b0&lock=0&index=0&wallet=0x4214d9F164358DaF690fF3dac293965696f4840C&chain=56
 - **Community Vesting Lock:** UNCX Network, Vest ID 620, locked until July 28, 2031
@@ -96,6 +95,7 @@ The vote itself is conducted off-chain. The token contract does not contain voti
 | Developer (Locked 6mo) | 0x7027217dd9E1aC8f586A3F3D0ecACb0E66648D73 |
 | Community Reserve | 0x3CC7fDaed5956200d1a536eBDCccd73dA04fD88d |
 | UNCX Vesting Contract | 0x7f3f9f4ED8987B78adC448a840169A0FD5AFFAAB |
+| Deployer | 0x4214d9F164358DaF690fF3dac293965696f4840C |
 | PancakeSwap Pair | 0xDfc1CC4b6603A1D80B34d2B389Db5B8DfE39D6b0 |
 
 ## Links
